@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Template</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-color:rgb(243 235 228);
+            font-family:Heebo, sans-serif;
+        }
+        .card{
+            width:245px;
+            height:398px;
+            background-color:white;
+            border-radius: 0px 10px 10px 0px;
+            padding:25px;
+            margin-left:703px;
+            margin-top:-460px;
+        }
+        .img-card img{
+            width:300px;
+            height:447px;
+            margin-left:393px;
+            margin-top:100px;
+            border-radius:20px 0px 0px 0px ;
+            padding:9px;
+        }
+        h3{
+            font-size: 35px;
+            margin-top: 10px;
+        }
+        button{
+            background-color:rgb(4, 68, 44);
+            color:white;
+            padding:10px;
+            margin-top:30px;
+            margin-left:15px;
+            width:200px;
+            border-radius:5px;
+            cursor: pointer;
+            
+        }
+        #para{
+            color:rgba(0, 0, 0, 0.438);
+            font-size:17px;
+            margin-top:-10px;
+           
+           
+        }
+        #actual-price{
+            color:rgb(46, 115, 93);
+            font-weight: bold;
+            font-size:35px;
+            
+        }
+        #actual-price+span{
+            color:rgba(0, 0, 0, 0.438);
+            margin: 15px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        p{
+            color:rgba(0, 0, 0, 0.438)
+        }
+        button span{
+            margin:8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img-card">
+        <img src="../Frontend_mentor_Challenges/Images/image-product-desktop.jpg">
+        <div class="card">
+            <P>P E R F U M E</P>
+            <h3>Gabrielle Essence Eau De Parfum</h3>
+            <p id="para">A floral,solar and voluptuous interpretation composed by Oliver polge,Perfume-Creator fot the House of CHANEL</p>
+            <div>
+                <span id="actual-price">&#36; 149.99</span> <span><del>&#36; 169.99</del></span>
+            </div>
+            <button><span class="bi bi-cart3" ></span>Add to Cart</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
